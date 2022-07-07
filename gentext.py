@@ -1,6 +1,6 @@
 def format_text(zap, shake):
     return """
-def strategy_biased_{zap}_zap_to_{shake}_shake(player, hist):
+def biased_{zap}_zap_to_{shake}_shake(player, hist):
     if not player.is_human: return Choices.Shake
     return choices(
         population=[Choices.Zap, Choices.Shake],
