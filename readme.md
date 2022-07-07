@@ -26,3 +26,9 @@ generate function names to copy into `all_strategies` array
 ```
 python genfuncs.py
 ```
+
+generate function names to copy into `all_strategies` array
+
+```
+python genfuncs_reduced.py
+```
