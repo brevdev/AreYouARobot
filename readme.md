@@ -1,7 +1,7 @@
 run jupyter notebook
 
 ```
-docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "/home/brev/workspace/AreYouARobot/work":/home/jovyan/work jupyter/datascience-notebook:lab-3.0.5
+docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "/home/brev/workspace/AreYouARobot/work":/home/jovyan/work jupyter/scipy-notebook:lab-3.4.3
 ```
 
 and copy the link from output into your browser
